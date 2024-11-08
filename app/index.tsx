@@ -10,50 +10,80 @@ const logoImage = require("../assets/images/adaptive-icon.png");
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, backgroundColor: "plum", padding: 60 }}>
+    <View style={{ flex: 1, backgroundColor: "plum", padding: 20 }}>
       <ScrollView>
         <Text style={{ color: "red", fontSize: 14 }}>
-          Text Component inside View component with padding 20
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
         </Text>
-        <View style={{ width: 300, height: 300, backgroundColor: "lightblue" }}>
-          <Text style={{ color: "plum", fontSize: 14 }}>Text component</Text>
-        </View>
-        <View
-          style={{ width: 300, height: 300, backgroundColor: "lightgreen" }}
-        >
-          <Text style={{ fontSize: 14, color: "white" }}>
-            <Text style={{ color: "blue", fontSize: 14 }}>Nested</Text> Text
-            Component
-          </Text>
-        </View>
-        <View>
-          <Text style={{ color: "red", fontSize: 14 }}>Local Image</Text>
-          <Image source={logoImage} style={{ width: 300, height: 300 }} />
-        </View>
-        <View>
-          <Text style={{ color: "red", fontSize: 14 }}>Network Image</Text>
-          <Image
-            source={{ uri: "https://picsum.photos/300" }}
-            style={{ width: 300, height: 300 }}
-          />
-        </View>
-        <View>
-          <ImageBackground
-            source={{ uri: "https://picsum.photos/300" }}
-            style={{ width: 300, height: 300 }}
-          >
-            <Text style={{ color: "red", fontSize: 14 }}>background Image</Text>
-          </ImageBackground>
-        </View>
-        <View style={{ width: 300 }}>
-          <Text>Button</Text>
-          <Button
-            title="Press"
-            onPress={() => console.log("Button press")}
-            color="midnightblue"
-            disabled={true}
-          />
-        </View>
+        <Text style={{ color: "red", fontSize: 14 }}>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
+        </Text>
+        <Text style={{ color: "red", fontSize: 14 }}>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
+        </Text>
+        <Text style={{ color: "red", fontSize: 14 }}>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
+        </Text>
       </ScrollView>
     </View>
   );
